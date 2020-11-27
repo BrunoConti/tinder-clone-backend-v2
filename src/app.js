@@ -11,7 +11,7 @@ import Cards from './dbCards';
 dbConnection();
 
 const app = express();
-const port = process.env.port || 8001;
+const port = process.env.port || 8000;
 
 app.use(morgan('dev'));
 app.use(helmet());
